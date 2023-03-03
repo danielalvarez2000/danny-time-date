@@ -65,6 +65,8 @@ main {
     grid-template-areas:
         "seconds . minutes minutes"
         "amOrPM amOrPM . hours";
+    justify-self: center;
+
 }
 
 .date {
@@ -73,4 +75,5 @@ main {
     position: relative;
     top: 63px;
     right: 86.5vh;
+    justify-self: center;
 }
