@@ -1,0 +1,55 @@
+/* Hours */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+main {
+    outline: 2px dashed darkgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    align-content: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 25px;
+}
+
+
+.time {
+    outline: 2px solid black;
+    font-size: 3rem;
+}
+
+.date {
+    outline: 2px solid red;
+    font-size: 3rem;
+}
+
+.hours {
+    background: red;
+}
+
+.minutes {
+    background: yellow;
+}
+
+.seconds {
+    background: lime;
+}
+
+.AmOrPm {
+    background: blue;
+}
+
+.month {
+    background: brown;
+}
+
+.dayOfmonth {
+    background: green;
+}
+
+.year {
+    background: yellow;
+}
+
+.dayOfweek {
+    background: gold;
+}
