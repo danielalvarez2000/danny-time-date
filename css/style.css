@@ -53,3 +53,24 @@ main {
 .dayOfweek {
     background: gold;
 }
+
+* {
+    outline: 1px dotted gray;
+}
+
+/* Parent */
+.time {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "seconds . minutes minutes"
+        "amOrPM amOrPM . hours";
+}
+
+.date {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    top: 63px;
+    right: 86.5vh;
+}
